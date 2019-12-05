@@ -21,6 +21,7 @@ namespace CheeseMVC.Controllers
         {
             context = dbContext;
         }
+
         public IActionResult Index()
         {
             List<CheeseCategory> categories = context.Categories.ToList();
