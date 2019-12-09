@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20191204231825_Initialize.cs" />
+    <Compile Remove="Migrations\20191204231825_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20191205032102_AddMenu.cs" />
+    <Compile Remove="Migrations\20191205032102_AddMenu.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.4" />
